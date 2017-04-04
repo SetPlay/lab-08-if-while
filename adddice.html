@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript">
+
+	var fstRoll = prompt("What number did you roll first ? ");
+	var scndRoll = prompt("What number did you roll second ? ");
+
+	if (fstRoll <= 6 && fstRoll >= 1 && scndRoll <= 6 && scndRoll >= 1){
+
+		var fstRoll = parseInt (fstRoll, 10);
+
+		var scndRoll = parseInt (scndRoll, 10);
+
+		var totalroll = (fstRoll + scndRoll);
+
+		console.log("Your combined total is " + totalroll);
+		} else {
+			console.log("please provide a number between 1 and 6")
+		}
+
+</script>
+</body>
+</html>
